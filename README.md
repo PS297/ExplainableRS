@@ -1,5 +1,25 @@
 # Feature Importance Aware Deep Neural Network Model for Explainable Recommender Systems
-
+An interpretable decision-making process is vital for developing
+recommender systems. It should identify key items and relevant
+information to improve the recommendations. Deep learning models have
+shown promising performance, but simultaneously achieving explainability
+and efficiency is challenging. Existing explainable recommender systems
+interpret feature importance after training, which may not be able
+to determine crucial feature importance for enhancing performance. Additionally,
+the model’s learning paradigm depends on a single-objective
+function that ignores the captured information of user-item interaction.
+This study aims to develop a feature importance aware deep neural
+network model for explainable recommender systems, which facilitates
+improved predictive performance by considering the feature importance
+within the training procedure and generates a recommendation list based
+on the user’s preference. The proposed method minimizes the combination
+of model losses and introduces a penalty term that specifically targets
+and diminishes the detrimental impact of a particular feature on
+the solution’s efficacy. This strategy ensures the determination of the
+optimal solution by satisfying the explainable conditions imposed during
+the training framework. Extensive experiments on publicly accessible
+FilmTrust and MovieLens-100K datasets show notable recommendation
+performance
 
 
 ## Citation
