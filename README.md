@@ -19,7 +19,10 @@ the solution’s efficacy. This strategy ensures the determination of the
 optimal solution by satisfying the explainable conditions imposed during
 the training framework. Extensive experiments on publicly accessible
 FilmTrust and MovieLens-100K datasets show notable recommendation
-performance
+performance.
+<img width="1703" height="620" alt="Fig 3" src="https://github.com/user-attachments/assets/c673675d-4c96-4d50-aafe-522995f73556" />
+
+
 
 
 ## Citation
